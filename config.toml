@@ -1,14 +1,14 @@
 baseURL = "hoge"
 languageCode = "ja-JP"
-title = "poyo"
+title = "poyopoyo"
 theme = "minimal"
 publishDir = "docs"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 copyright = "Copyleft; 2017-2017, BrownieAlice. All rights reversed."
 [params]
-    author = "Taiki Horiuchi"
-    description = "at Shima lab"
+    author = "Taikiii Horiuchi"
+    description = "at Shimaaaaa lab"
     githubUsername = "#"
     accent = "orange"
     showBorder = true
