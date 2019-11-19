@@ -1,0 +1,7 @@
+baseURL = "hoge"
+languageCode = "ja-JP"
+title = "poyo"
+theme = "hugo-swift-theme"
+publishDir = "docs"
+disqusShortname = "foo"
+copyright = "Copyleft; 2017-2017, BrownieAlice. All rights reversed."
