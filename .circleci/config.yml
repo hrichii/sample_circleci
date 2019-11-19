@@ -15,17 +15,17 @@ jobs:
       #         git clone https://github.com/gohugoio/hugo.git
       #         cd hugo
       #         go install
-      # - checkout
+      - checkout
       - run:
           name: build
           command: |
               rm -rf public
               git clone git@github.com:hrichii/sample_circleci.git public
+              cd public
               hugo
       - run:
           name: push
           command: |
-              cd public
               git config --global user.name "CircleCI"
               git config --global user.email "circleci@example.com"
               git add --all
