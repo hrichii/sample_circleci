@@ -2,20 +2,20 @@ version: 2.1
 jobs:
   build:
       docker:
-      - image: circleci/golang:1.11
+      - image: cibuilds/hugo:latest
       working_directory: ~/work
       steps:
       - add_ssh_keys:
           fingerprints:
               - "56:a6:e1:44:a5:bb:2d:d2:19:19:4c:cf:af:7e:0b:7b"
-      - run:
-          name: install hugo
-          command: |
-              mkdir ~/src; cd $_
-              git clone https://github.com/gohugoio/hugo.git
-              cd hugo
-              go install
-      - checkout
+      # - run:
+      #     name: install hugo
+      #     command: |
+      #         mkdir ~/src; cd $_
+      #         git clone https://github.com/gohugoio/hugo.git
+      #         cd hugo
+      #         go install
+      # - checkout
       - run:
           name: build
           command: |
@@ -31,4 +31,4 @@ jobs:
               git add --all
               msg="rebuilding site `date`"
               git commit -m "$msg"
-              git push origin master
+              git push
