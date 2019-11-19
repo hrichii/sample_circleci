@@ -10,7 +10,8 @@ jobs:
               - "56:a6:e1:44:a5:bb:2d:d2:19:19:4c:cf:af:7e:0b:7b"
       - run:
           name: SSH settings
-          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+          command: |
+                echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: clone
           command: |
