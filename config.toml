@@ -28,7 +28,7 @@ copyright = "Copyleft; 2017-2017, BrownieAlice. All rights reversed."
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
+    url = "/post"
     name = "Posts"
     weight = 2
 
