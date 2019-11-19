@@ -8,7 +8,12 @@ jobs:
       - add_ssh_keys:
           fingerprints:
               - "56:a6:e1:44:a5:bb:2d:d2:19:19:4c:cf:af:7e:0b:7b"
-      - checkout
+      - run:
+          name: clone
+          command: |
+                git clone git@github.com:hrichii/sample_circleci.git public
+                cd public
+                ls
       - run:
           name: build
           command: |
