@@ -18,13 +18,11 @@ jobs:
                 git clone git@github.com:hrichii/sample_circleci.git public
                 cd public
                 ls
-      - run:
-          name: build
-          command: |
                 hugo
       - run:
           name: push
           command: |
+              ls
               git config --global user.name "CircleCI"
               git config --global user.email "circleci@example.com"
               git add --all
