@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on poyo</title>
+    <title>Posts on poyopoyosdfafa</title>
     <link>hoge/post/</link>
-    <description>Recent content in Posts on poyo</description>
+    <description>Recent content in Posts on poyopoyosdfafa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <copyright>Copyleft; 2017-2017, BrownieAlice. All rights reversed.</copyright>
@@ -19,6 +19,15 @@
       
       <guid>hoge/post/hoge/</guid>
       <description>a a adfasdfasd asdfasdfa</description>
+    </item>
+    
+    <item>
+      <title>Sample2</title>
+      <link>hoge/post/sample2/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>hoge/post/sample2/</guid>
+      <description>aadfasdf asdf a agsf</description>
     </item>
     
   </channel>
