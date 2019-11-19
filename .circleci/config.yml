@@ -20,6 +20,8 @@ jobs:
           name: build
           command: |
                 ls
+                pwd
+                git branch -a
       # - run:
       #     name: push
       #     command: |
