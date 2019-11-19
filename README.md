@@ -54,6 +54,8 @@ workflows:
           requires:
             - build
 ```
+## HP
+https://hrichii.github.io/sample_circleci/
 
 ## 参考文献
 - [CircleCIでHugoを実行してGitHub Pagesにデプロイ](https://t32k.me/mol/log/hugo-circleci-ghpages-2018/)

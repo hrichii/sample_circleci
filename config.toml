@@ -1,7 +1,8 @@
 baseURL = "hoge"
 languageCode = "ja-JP"
 title = "poyo"
-theme = "hugo-swift-theme"
+theme = "minimal"
 publishDir = "docs"
-disqusShortname = "foo"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
 copyright = "Copyleft; 2017-2017, BrownieAlice. All rights reversed."
